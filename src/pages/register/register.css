@@ -1,0 +1,56 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.559),rgba(0, 0, 0, 0.559)), url(/src/pages/register/register.jpg);
+    background-size: cover;
+    align-items: center;
+}
+.registerTitle{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm>label {
+    margin: 10px 0px;
+    color: rgb(255, 255, 255);
+}
+.registerInput{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.registerButton{
+    margin-top: 20px;
+    display: block;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerButton:hover{
+    background-color: rgba(128, 128, 128, 0.241);
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border: none;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.registerLoginButton:hover{
+    background-color: rgba(128, 128, 128, 0.241);
+}
